@@ -7,7 +7,7 @@ topnav:
       url: /developer
     - title: Release Notes
       url: /news
-    - title: GitHub
+    - title: Source Code
       external_url: https://github.com/eclipse/che
 
 #Topnav dropdowns
