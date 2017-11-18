@@ -16,7 +16,7 @@ topnav_dropdowns:
   folders:
     - title: Get Help
       folderitems:
-        - title: File Issues
+        - title: File Bugs
           external_url: https://github.com/eclipse/che/issues
         - title: Jekyll documentation
           external_url: http://jekyllrb.com/docs/home/
