@@ -8,8 +8,8 @@ entries:
   - title: Products
     output: web
     folderitems:
-    - title: News
-      url: /news.html
+    - title: Intro to dev docs
+      url: /developer.html
       output: web
     - title: Theme instructions
       url: /mydoc_introduction.html

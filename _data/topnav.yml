@@ -14,16 +14,14 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Get Help
+    - title: Get Support
       folderitems:
-        - title: File Bugs
-          external_url: https://github.com/eclipse/che/issues
-        - title: Jekyll documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
-          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: Known Bugs
+          external_url: https://github.com/eclipse/che/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Akind%2Fbug
+        - title: File an Issue
+          external_url: https://github.com/eclipse/che/issues/new
+        - title: Che on StackOverflow
+          external_url: https://stackoverflow.com/questions/tagged/eclipse-che
     # - title: Products
     #   folderitems:
     #     - title: Jekyll Documentation Theme
