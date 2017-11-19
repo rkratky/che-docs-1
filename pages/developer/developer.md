@@ -9,4 +9,6 @@ folder: developer
 
 ## Hello World
 
+## Javascript API for Client Side Extensions
+
 {% include links.html %}
