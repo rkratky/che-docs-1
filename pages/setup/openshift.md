@@ -1,5 +1,5 @@
 ---
-title: "Installation on OpenShift"
+title: "Deploy to OpenShift"
 keywords: openshift, installation
 tags: [installation, openshift]
 sidebar: user_sidebar
