@@ -1,0 +1,112 @@
+---
+title: Welcome to Eclipse Che Docs
+sidebar: user_sidebar
+toc: false
+permalink: index.html
+<!-- folder: product1 -->
+---
+<div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Choose Category</h2>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Installation</h4>
+                    <p>How to install, run, update and maintain Che and its infra.</p>
+                    <a href="/docker_openshift.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Users Docs</h4>
+                    <p>Import projects, compile, run, debug and share.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Dev Docs</h4>
+                    <p>Extend Che, write plugins, add new languages.</p>
+                    <a href="/developer" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Tutorials</h4>
+                    <p>Steps by step how-tos: run your projects in less than one minute.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick start tabs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Try It Now</h2>
+        </div>
+        <div class="col-lg-12">
+
+            <ul id="myTab" class="nav nav-tabs nav-justified">
+                <li class="active"><a href="#service-one" data-toggle="tab"><i class="icon-docker"></i> Docker</a>
+                </li>
+                <li class=""><a href="#service-two" data-toggle="tab"><i class="icon-openshift"></i> OpenShift</a>
+                </li>
+                <li class=""><a href="#service-three" data-toggle="tab"></i> Kubernetes</a>
+                </li>
+            </ul>
+
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="service-one">
+                    <h4>Run the following Docker command in your terminal:</h4>
+                    <p><code class="highlighter-rouge">#: docker run -ti -v /var/run/docker.sock:/var/run/docker.sock -v ${LOCAL+PATH}:/data eclipse/che start</code></p>
+                </div>
+                <div class="tab-pane fade" id="service-two">
+                    <h4>Deploy to Minishift</h4>
+                    <p>
+                       <code class="highlighter-rouge">
+                      #: docker run -ti -v /var/run/docker.sock:/var/run/docker.sock -v ${LOCAL+PATH}:/data eclipse/che init
+                       #: ${LOCAL+PATH}/instance/deploy_che.sh
+                       </code>
+                    </p>
+
+                </div>
+                <div class="tab-pane fade" id="service-three">
+                    <h4>Kubernetes</h4>
+                    <p>Kubernetes infrastructure is not yet implemented for Eclipse Che SPI.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>

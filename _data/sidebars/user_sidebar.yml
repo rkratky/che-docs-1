@@ -1,0 +1,61 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product:
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: What Is Eclipse Che?
+      url: /overview.html
+      output: web, pdf
+
+  - title: Setup
+    output: web, pdf
+    folderitems:
+
+    - title: Single vs Multi-User Flavors
+      url: /single_multi_user.html
+      output: web, pdf
+
+    - title: Docker vs OpenShift Deployments
+      url: /docker_openshift.html
+      output: web, pdf
+
+    - title: Run on Docker
+      url: /docker.html
+      output: web, pdf
+
+    - title: Deploy to OpenShift
+      url: /openshift.html
+      output: web, pdf
+
+  - title: Configuration
+    output: web, pdf
+    folderitems:
+
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: 5.0 Release notes
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
