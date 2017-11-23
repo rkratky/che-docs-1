@@ -139,6 +139,10 @@ docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock
                        eclipse/che:<version> [COMMAND]
 ```
 
+## Run on Different Port
+
+Either set `CHE_PORT=$your_port` in [che.env](docker-config.html#saving-configuration-in-version-control) or pass it as env in your docker run syntax: `-e CHE_PORT=$your_port`.
+
 ## Run As User
 
 On Linux or Mac, you can run Eclipse Che container with a different user identity. The default is to run the Che container as root. You can  pass `--user uid:gid` or `-e CHE_USER=uid:gid` as a `docker run` parameter before the `eclipse/che` Docker image. The CLI will start the `eclipse/che-server` image with the same `uid:gid` combination along with mounting `/etc/group` and `etc/passwd`. When Che is run as a custom user, all files written from within the Che server to the host (such as `che.env` or `cli.log` will be written to disk with the custom user as the owner of the files. This feature is not available on Windows.
