@@ -40,22 +40,34 @@ entries:
       url: /docker_openshift.html
       output: web, pdf
 
-    - title: Install on Docker
+    - title: Single-User&#58 Install on Docker
       url: /docker.html
       output: web, pdf
 
-    - title: Deploy to OpenShift
+    - title: Install on Docker&#58 Bypass CLI
+      url: /docker-native.html
+      output: web, pdf
+
+    - title: Single-User&#58 Deploy to OpenShift
       url: /openshift.html
+      output: web, pdf
+
+    - title: Multi-User-User&#58 Install on Docker
+      url: /multi-user-docker.html
+      output: web, pdf
+
+    - title: Multi-User&#58 Deploy to OpenShift
+      url: /multi-user-openshift.html
       output: web, pdf
 
   - title: Configuration
     output: web, pdf
     folderitems:
 
-    - title: Configuration on OpenShift
-      url: /openshift-config.html
-      output: web, pdf
-
     - title: Configuration on Docker
       url: /docker-config.html
+      output: web, pdf
+
+    - title: Configuration on OpenShift
+      url: /openshift-config.html
       output: web, pdf
