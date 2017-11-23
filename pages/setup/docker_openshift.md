@@ -21,6 +21,8 @@ By default, `sshd` starts in all ready-to-go stack images. You can connect to a 
 
 Though deploying administering Che on Docker may seem a little bit easier than doing it in OpenShift, it's OpenShift that unleashes the power of Eclipse Che as a workspace server and cloud IDE.
 
+**[Install on Docker][docker]**
+
 ## Deploying to OpenShift
 
 When deployed to OpenShift, Che provides the following features that are not available in Che on Docker:
@@ -38,5 +40,7 @@ HAProxy that runs in an OpenShift cluster takes care of creating secure routes, 
 OpenShift restarts failed deployments and offers health checks for pods. This can significantly minimize the effect of infrastructure outages.
 
 At the same time there are some OpenShift security restrictions which are [root access](#root-access) and [ssh access](#ssh-access). See [Configuration][openshift-config].
+
+**[Deploy to OpenShift][openshift]**
 
 {% include links.html %}
